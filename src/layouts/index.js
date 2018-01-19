@@ -3,9 +3,15 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
-import './index.css'
+import Slider from '../components/Slider'
+import OurClients from '../components/OurClients'
+import HowItWorks from '../components/HowItWorks'
+import './bootstrap.min.css'
+import './pe-icon-7-stroke.css'
+import './font-awesome.min.css'
+import './style.css'
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = (props) => (
   <div>
     <Helmet
       title="Gatsby Default Starter"
@@ -14,16 +20,19 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
+<Header metaData={props.data.site} />
+<Slider />
+<OurClients />
+<HowItWorks />
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        padding: '12px 0',
       }}
     >
-      {children()}
+      {props.children()}
     </div>
   </div>
 )
@@ -31,5 +40,15 @@ const TemplateWrapper = ({ children }) => (
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
 }
+
+export const indexQuery = graphql`
+    query IndexQuery {
+        site {
+            siteMetadata {
+              title
+            }
+        }
+    }
+`
 
 export default TemplateWrapper
