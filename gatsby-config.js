@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Active Lexington',
+    title: 'Template',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 };
