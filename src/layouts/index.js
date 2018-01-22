@@ -7,6 +7,7 @@ import Slider from '../components/Slider'
 import OurClients from '../components/OurClients'
 import HowItWorks from '../components/HowItWorks'
 import Testimonials from '../components/Testimonials'
+import Services from '../components/Services'
 import './bootstrap.min.css'
 import './pe-icon-7-stroke.css'
 import './font-awesome.min.css'
@@ -26,6 +27,7 @@ const TemplateWrapper = (props) => (
     <OurClients />
     <HowItWorks />
     <Testimonials />
+    <Services />
   </div>
 
 )
