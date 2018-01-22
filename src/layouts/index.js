@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import Slider from '../components/Slider'
 import OurClients from '../components/OurClients'
 import HowItWorks from '../components/HowItWorks'
+import Testimonials from '../components/Testimonials'
 import './bootstrap.min.css'
 import './pe-icon-7-stroke.css'
 import './font-awesome.min.css'
@@ -20,21 +21,13 @@ const TemplateWrapper = (props) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-<Header metaData={props.data.site} />
-<Slider />
-<OurClients />
-<HowItWorks />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        padding: '12px 0',
-      }}
-    >
-      {props.children()}
-    </div>
+    <Header metaData={props.data.site} />
+    <Slider />
+    <OurClients />
+    <HowItWorks />
+    <Testimonials />
   </div>
+
 )
 
 TemplateWrapper.propTypes = {
