@@ -17,15 +17,15 @@ import './style.css'
 const TemplateWrapper = (props) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Active Lexington"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header metaData={props.data.site} />
+    <Header metaData={props.data.site.siteMetadata} />
     <Slider />
-    <OurClients />
+    <OurClients image={props.data.client2} />
     <HowItWorks />
     <Testimonials />
     <Services />
@@ -44,6 +44,14 @@ export const indexQuery = graphql`
             siteMetadata {
               title
             }
+        },
+        client2: imageSharp(id: { regex: "/client2/" }) {
+          sizes(maxWidth: 241) {
+            src
+            sizes
+            originalImg
+            originalName
+          }
         }
     }
 `
