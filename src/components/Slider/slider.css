@@ -1,8 +1,10 @@
+
 /* ==============================================================
    SLIDER
    ============================================================== */
 .slider {
   position: relative;
+  background: url(../../images/placeholder1600x1190.png) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 10rem 0; }

@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './services.css'
+import placeholder800x420 from '../../images/placeholder800x420.png'
 
-const Services = () => (
+const Services = () => {
+return (
 <div id="startServices">
     <section className="service-title" id="services">
         <div className="container">
@@ -18,7 +20,7 @@ const Services = () => (
   <div className="img-objectfit">
     <div className="grid">
       <figure className="effect-lily">
-        <img src="service-img1.jpg" className="img-fluid" alt="#" />
+        <img src={placeholder800x420} className="img-fluid" alt="#" />
       </figure>
     </div>
   </div>
@@ -64,7 +66,7 @@ const Services = () => (
         <div className="img-objectfit_1">
             <div className="grid">
                 <figure className="effect-lily">
-                    <img src="images/service-img2.jpg" className="img-fluid" alt="#" />
+                    <img src={placeholder800x420} className="img-fluid" alt="#" />
                 </figure>
             </div>
         </div>
@@ -74,7 +76,7 @@ const Services = () => (
         <div className="img-objectfit">
             <div className="grid">
                 <figure className="effect-lily">
-                    <img src="images/service-img3.jpg" className="img-fluid" alt="#" />
+                    <img src={placeholder800x420} className="img-fluid" alt="#" />
                 </figure>
             </div>
         </div>
@@ -120,12 +122,13 @@ const Services = () => (
         <div className="img-objectfit_1">
             <div className="grid">
                 <figure className="effect-lily">
-                    <img src="images/service-img4.jpg" className="img-fluid" alt="#" />
+                    <img src={placeholder800x420} className="img-fluid" alt="#" />
                 </figure>
             </div>
         </div>
     </section>
 </div>
 )
+}
 
 export default Services
