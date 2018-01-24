@@ -7,9 +7,9 @@ const Header = (props) => (
             <div className="row">
                 <div className="col-md-12">
                     <nav className="navbar navbar-expand-lg navbar-light">
-                        <a className="navbar-brand" href="#">
+                        <Link to="/" className="navbar-brand">
                             {props.metaData.title}
-                        </a>
+                        </Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -17,12 +17,12 @@ const Header = (props) => (
                             <ul className="navbar-nav">
 
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#howitworks">How it works</a>
+                                    <Link to="/#howitworks"  className="nav-link">How it works</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#services">Our Services </a>
+                                    <Link to="/#services"  className="nav-link">Our Services </Link>
                                 </li>
-                                <li><a href="booking.html" className="btn btn-info">Book a Cleaning</a></li>
+                                <li><Link to="/Booking" className="btn btn-info">Book a Cleaning</Link></li>
                             </ul>
                         </div>
                     </nav>
