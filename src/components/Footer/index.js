@@ -1,7 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Footer = (props) => (
+const Footer = (props) => {
+
+    const today = new Date();
+
+    return (
     <footer>
         <div className="container">
             <div className="row mb-5">
@@ -57,12 +61,13 @@ const Footer = (props) => (
             <div className="row">
                 <div className="col-md-12">
                     <div className="copyright">
-                        <a href="#">&copy; 2016 Cleanly. All rights reserved</a>
+                        <a href="#">&copy; {today.getFullYear()} {props.metaData.title}. All rights reserved</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-)
+    )
+}
 
 export default Footer

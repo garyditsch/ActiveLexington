@@ -29,7 +29,7 @@ const TemplateWrapper = (props) => (
     <HowItWorks />
     <Testimonials />
     <Services />
-    <Footer />
+    <Footer metaData={props.data.site.siteMetadata} />
   </div>
 
 )
