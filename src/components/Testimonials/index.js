@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import './testimonials.css'
 
 const Testimonials = () => (
-    <section className="testimonial main-block center-block">
+    <section className="testimonial main-block center-block" id="highlights">
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
