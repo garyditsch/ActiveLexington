@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Template',
+    title: 'Active Lexington',
   },
   plugins: [
       {

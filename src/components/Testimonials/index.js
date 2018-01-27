@@ -3,43 +3,43 @@ import Link from 'gatsby-link'
 import './testimonials.css'
 
 const Testimonials = () => (
-    <section className="testimonial main-block center-block">
+    <section className="testimonial main-block center-block" id="highlights">
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <h2>Don’t take our <span>word</span></h2>
-                    <h6>Read what our past customers said about our cleaning and services.</h6>
+                    <h2>Get the <span>Highlights</span></h2>
+                    <h6>A few of the quoteable moments from the podcast.</h6>
                 </div>
             </div>
             <div className="row mt-5">
                 <div className="col-md-4">
                     <div className="testi-block">
                         <i className="fa fa-quote-left" aria-hidden="true"></i>
-                        <p>Maid Services NYC is a wonderful service. I utilized their services to clean a one bedroom apartment I was staying in NYC after throwing a get together. They were prompt, left the place spotless, and very professional. </p>
+                        <p>John my bike has a seat in the fron and a seat in the back for my kids ... they borrowed a bike for me and I did the first triathlon at Spindletop in 1982, I was 42 years old.</p>
                     </div>
                     <div className="testi-title">
-                        <h4>Sandra</h4>
-                        <p>Marketing Staff, New York</p>
+                        <h4>Susan Bradly-Cox</h4>
+                        <p>Triathlete | Episode 1</p>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="testi-block">
                         <i className="fa fa-quote-left" aria-hidden="true"></i>
-                        <p>I had them out to help me clean my new place for an office dinner I was having. I was very happy with the results. Jennifer came to the location on time. It is such a treat to have the home professionally cleaned. </p>
+                        <p>It was the utmost beautiful thing of all time... I remember very vividly standing in the K Lot at Commonwealth Stadium and the first word that came to mind was freedom ...</p>
                     </div>
                     <div className="testi-title">
-                        <h4>Jessica</h4>
-                        <p>Photographer, New York</p>
+                        <h4>Josh Nadzam</h4>
+                        <p>Runner | Episode 2</p>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="testi-block">
                         <i className="fa fa-quote-left" aria-hidden="true"></i>
-                        <p>They did such a good job. Whether you want to give a unique gift or have your own home cleaned, Maid for you provides a large range of top-notch services that I highly recommend to anyone. </p>
+                        <p>It has been a six year process to get to that point where I can consistently and chronically put in high training loads. But with that comes a tremendous amount of fatigue everyday. ... But it is also something that, most days, I love doing. ... Iam able to do what I love.</p>
                     </div>
                     <div className="testi-title">
-                        <h4>Samantha</h4>
-                        <p>Physical Therapist, Manhattan</p>
+                    <h4>Kevin Ryan</h4>
+                        <p>Triathlete | Episode 7</p>
                     </div>
                 </div>
             </div>

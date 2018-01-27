@@ -4,7 +4,7 @@
    ============================================================== */
 .slider {
   position: relative;
-  background: url(../../images/placeholder1600x1190.png) no-repeat;
+  background: url(../../images/ActiveLexingtonCover.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 10rem 0; }
@@ -114,8 +114,8 @@
   color: #3f4b5e;
   margin: 0 0 30px; }
   .center-block h2 span {
-    color: #45c3d3;
-    border-bottom: 3px solid #45c3d3; }
+    color: #82ca9c;
+    border-bottom: 3px solid #82ca9c; }
 
 .center-block h6 {
   text-align: center;

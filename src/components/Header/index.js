@@ -15,14 +15,10 @@ const Header = (props) => (
             </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav">
-
                                 <li className="nav-item">
-                                    <Link to="/#howitworks"  className="nav-link">How it works</Link>
+                                    <Link to="/#highlights"  className="nav-link">Highlights </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link to="/#services"  className="nav-link">Our Services </Link>
-                                </li>
-                                <li><Link to="/Booking" className="btn btn-info">Book a Cleaning</Link></li>
+                                <li><Link to="/#episodes" className="btn btn-info">Listen to Podcast</Link></li>
                             </ul>
                         </div>
                     </nav>
