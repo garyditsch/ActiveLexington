@@ -248,7 +248,7 @@ header {
 
 .btn-info {
   background: #82ca9c;
-  border: 2px solid #34495e;
+  border: 2px solid #2a834b;
   padding: 9px 33px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -537,7 +537,7 @@ COUNDOWN TIMER
    FOOTER
    ============================================================== */
 footer {
-  background: #45c3d3;
+  background: #82ca9c;
   padding: 50px 0; }
 
 @media (max-width: 768px) {
