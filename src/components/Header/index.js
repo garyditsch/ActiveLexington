@@ -11,7 +11,7 @@ const Header = (props) => (
             <div className="row">
                 <div className="col-md-12">
                     <nav className="navbar navbar-expand-lg navbar-light">
-                        <Link to="/" className="navbar-brand">
+                        <Link to="/#" className="navbar-brand">
                             {props.metaData.title}
                         </Link>
                         <button className="navbar-toggler" type="button">
@@ -20,10 +20,6 @@ const Header = (props) => (
                               anchorOrigin={{horizontal: 'left', vertical: 'top'}}
                               targetOrigin={{horizontal: 'left', vertical: 'top'}}
                             >
-                              <MenuItem
-                                  primaryText="Home"
-                                  containerElement={<Link to="/" />}
-                              />
                               <MenuItem
                                   primaryText="Highlights"
                                   containerElement={<Link to="/#highlights" />}
@@ -37,8 +33,9 @@ const Header = (props) => (
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav">
+
                                 <li className="nav-item">
-                                    <Link to="/#highlights"  className="nav-link">Highlights </Link>
+                                    <Link to="/#highlights"  className="nav-link">Highlights</Link>
                                 </li>
                                 <li><Link to="/#episodes" className="btn btn-info">Listen to Podcast</Link></li>
                             </ul>
