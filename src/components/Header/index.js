@@ -14,7 +14,7 @@ const Header = (props) => (
                         <Link to="/#" className="navbar-brand">
                             {props.metaData.title}
                         </Link>
-                        <button className="navbar-toggler" type="button">
+                        <div className="navbar-toggler" type="button">
                             <IconMenu
                               iconButtonElement={<IconButton><MoreVertIcon /></IconButton>}
                               anchorOrigin={{horizontal: 'left', vertical: 'top'}}
@@ -30,7 +30,7 @@ const Header = (props) => (
                               />
 
                             </IconMenu>
-                        </button>
+                        </div>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav">
 
