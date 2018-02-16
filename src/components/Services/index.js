@@ -43,10 +43,10 @@ return (
     <section className="service">
         <div className="episode-list">
             <div className="row">
-              <div className="col-md-5">
+              <div className="col-sm-12 col-md-5">
                   <img src={TroyHearnEpisode11} className="img-fluid" alt="#" />
               </div>
-              <div className="col-md-7">
+              <div className="col-sm-12 col-md-7">
                 <div className="service-link">
                  <h3>Troy Hearn <span>Cyclist</span></h3>
                     <ul>
